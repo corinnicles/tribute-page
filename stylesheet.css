@@ -1,18 +1,34 @@
 body{
-    background-image: url("assets/Campari-background.jpg");
+    background-image: url(assets/black-thread-light.png);
+    background-color: #881f1f;
     background-position: center;
-    background-size: cover;
+}
+h1, h2{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0 0 7px black;
+}
+h1{
+    font-size: 10vw;
+}
+h2{
+    font-size: 7vw;
 }
 ul, p {
-    background-color: white;
+    background-color: whitesmoke;
     margin: auto;
     margin: 5vw;
     padding: 4vh 4vw;
+    border-radius: 20px;
+    box-shadow: 3px 7px 8px 0 rgba(0, 0, 0, 0.5), -4px 3px 20px 0 rgba(0, 0, 0, 0.2);
 }
 #img-div{
     margin: auto;
     width: 50%;
 }
 img#image{
-    height: 50vw;
+    height: 45vw;
+    border-radius: 360px;
+    border: 20px black double;
 }
